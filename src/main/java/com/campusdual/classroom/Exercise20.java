@@ -16,8 +16,8 @@ public class Exercise20 {
     }
 
     public static void showPeopleDetails(List<Person> stringList) {
-        for (int i = 0; i < stringList.size(); i++) {
-          stringList.get(i).getDetails();
+        for (Person p: stringList) {
+            p.getDetails();
         }
     }
 
